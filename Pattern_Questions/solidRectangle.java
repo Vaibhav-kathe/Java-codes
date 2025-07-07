@@ -1,7 +1,6 @@
 package Pattern;
-
-public class solidRectangle{
-
+public class solidRectangle
+{
 	public static void main(String[] args) 
 	{
 		int n = 4;
