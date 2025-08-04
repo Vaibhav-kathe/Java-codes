@@ -16,7 +16,6 @@ public class Prime {
                     break; 
                 }
             }
-
             if (count == 0)
                 System.out.println(number + " is a prime number.");
             else
@@ -25,3 +24,4 @@ public class Prime {
         sc.close();
     }
 }
+
