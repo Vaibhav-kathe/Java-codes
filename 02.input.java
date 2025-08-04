@@ -1,7 +1,6 @@
-import java.util.*;
+import java.util.Scanner;
 public class input {
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         float name = sc.nextFloat();
         System.out.println(name);
@@ -10,3 +9,4 @@ public class input {
 
     }
 }
+
