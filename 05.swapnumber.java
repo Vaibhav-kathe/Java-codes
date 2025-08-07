@@ -9,7 +9,7 @@ public class input {
 		System.out.print("Enter the Value of b = ");
 		int b = sc.nextInt();
 		
-		System.out.println("Before Swapping");
+		System.out.println("Before Swapping...");
 		System.out.println("a = "+a);
 		System.out.println("b = "+b);
 		
@@ -17,7 +17,7 @@ public class input {
 		a=b;
 		b=temp;
 		
-		System.out.println("After Swapping");
+		System.out.println("After Swapping...");
 		System.out.println("a = "+a);
 		System.out.println("b = "+b);
 		sc.close(); 
