@@ -1,4 +1,3 @@
-package challenges;
 import java.util.*;
 public class AreaOfTriangle {
 	public static void main(String[] args) {
