@@ -11,5 +11,6 @@ public class FloatNumber {
 		float B = sc.nextFloat();
 		
 		System.out.println("Product is : "+(A*B));
+		sc.close();
 	}
 }
