@@ -16,5 +16,6 @@ public class ArithmeticOperator {
 		System.out.println("Multiplication of "+A+" and "+B+" = "+ (A*B));
 		System.out.println("Division of "+A+" and "+B+" = "+ (A/B));
 		System.out.println("Reminder of "+A+" and "+B+" = "+ (A%B));	
+		sc.close();
 	}
 }
