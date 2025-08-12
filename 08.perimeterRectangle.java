@@ -1,4 +1,3 @@
-package challenges;
 import java.util.*;
 public class PerimeterRectangle {
 	public static void main(String[] args) {
@@ -12,5 +11,6 @@ public class PerimeterRectangle {
 		
 		int Perimeter = A+B+C+D;
 		System.out.println("Perimeter of Rectangle is  : "+Perimeter+" cm ");
+		sc.close();
 	}
 }
