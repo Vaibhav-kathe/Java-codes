@@ -13,5 +13,4 @@ public class AreaOfTriangle {
 		double Area = 0.5*B*H;
 		System.out.print("Area of Triangle : "+Area);
 	}
-
 }
