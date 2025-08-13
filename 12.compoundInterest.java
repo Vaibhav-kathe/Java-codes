@@ -15,5 +15,6 @@ public class CompoundInterest {
 		
 		double CI = P * Math.pow((1+R/100),t);
 		System.out.print("Compund Interest = "+CI+" $");
+		sc.close();
 	}
 }
