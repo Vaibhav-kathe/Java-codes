@@ -9,5 +9,6 @@ public class TemperatureConverter {
 	
 		int C = (F-32)*5/9;
 		System.out.print("Temperature in Celsius = "+C+" C");
+		sc.close();
 	}
 }
