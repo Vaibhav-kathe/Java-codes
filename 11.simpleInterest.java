@@ -15,5 +15,6 @@ public class SimpleInterest {
 		
 		double SI = (P*T*R)/100;
 		System.out.print("Simple Interest = "+SI+" $ ");
+		sc.close();
 	}
 }
