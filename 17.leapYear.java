@@ -11,5 +11,6 @@ public class LeapYear {
 		}else {
 			System.out.print(year+" is not a LEAF Year");
 		}
+		sc.close();
 	}
 }
