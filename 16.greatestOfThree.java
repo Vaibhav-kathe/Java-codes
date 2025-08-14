@@ -23,5 +23,6 @@ public class GreatestOfThree {
 		}else {
 			System.out.println("Invaid");
 		}
+		sc.close();
 	}
 }
