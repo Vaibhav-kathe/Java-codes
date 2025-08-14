@@ -19,5 +19,6 @@ public class Grades {
 		}else{
 			System.out.print("Invalid Marks");
 		}
+		sc.close();
 	}
 }
