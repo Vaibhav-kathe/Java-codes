@@ -15,5 +15,6 @@ public class CheckPosNegZero {
 		}else {
 			System.out.print("Invalid Number");
 		}
+		sc.close();
 	}
 }
