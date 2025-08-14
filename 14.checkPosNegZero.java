@@ -1,4 +1,3 @@
-package challenges;
 import java.util.*;
 public class CheckPosNegZero {
 	public static void main(String[] args) {
@@ -16,6 +15,5 @@ public class CheckPosNegZero {
 		}else {
 			System.out.print("Invalid Number");
 		}
-		sc.close();
 	}
 }
