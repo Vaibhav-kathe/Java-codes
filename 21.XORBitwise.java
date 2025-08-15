@@ -11,6 +11,7 @@ public class XORBitwise {
 		
 		//output is 0 if bit are 0,0 or 1,1, otherwise 1
 		int result = first ^ second;
-		System.out.print("\nResult is "+result);	
+		System.out.print("\nResult is "+result);
+		sc.close();
 	}
 }
