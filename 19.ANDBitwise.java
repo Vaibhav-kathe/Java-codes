@@ -1,4 +1,3 @@
-package challenges;
 import java.util.Scanner;
 public class ANDBitwise {
 	public static void main(String[] args) {
@@ -12,6 +11,7 @@ public class ANDBitwise {
 		
 		//output is 1 if bits of both operand is 1, otherwise 0
 		int result = first & second;
-		System.out.print("\nResult is "+result);	
+		System.out.print("\nResult is "+result);
+		sc.close();
 	}
 }
