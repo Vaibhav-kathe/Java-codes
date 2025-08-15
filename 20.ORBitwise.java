@@ -12,5 +12,6 @@ public class ORBitwise {
 		//output is 0 if bits of both operand is 0, otherwise 1
 		int result = first | second;
 		System.out.print("\nResult is "+result);	
+		sc.close();
 	}
 }
