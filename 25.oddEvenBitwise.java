@@ -11,5 +11,6 @@ public class OddEvenBitwise {
 		}else {
 			System.out.print("Number is Even");
 		}
+		sc.close();
 	}
 }
