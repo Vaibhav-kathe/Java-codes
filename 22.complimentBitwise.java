@@ -8,6 +8,7 @@ public class ComplimentBitwise {
 		
 		//if input is 1 then output is 0 or visaversa 
 		int result = ~num;
-		System.out.print("\nResult is "+result);	
+		System.out.print("\nResult is "+result);
+		sc.close();
 	}
 }
