@@ -9,5 +9,6 @@ public class RightShiftOperator {
 		//filling the new leftmost bit with 0's
 		int result = num >> 1;
 		System.out.print("\nResult is "+result);
+		sc.close();
 	}
 }
