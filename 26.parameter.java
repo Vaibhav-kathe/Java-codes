@@ -4,7 +4,7 @@ public class Parameter {
 		System.out.println("sum is = "+number0);
 
 		int number1 = sumTwoNum(12,8);
-		System.out.println("sum is = "+number1);
+		System.out.println("sum is = "+number1); 
 	}
 	
 	public static int sumTwoNum(int first,int second) {
