@@ -14,5 +14,6 @@ public class SumOFOdd {
 			}
 		}
 		System.out.println("\nSum from 1 to "+N+" = "+ sum);
+		sc.close();
 	}
 }
