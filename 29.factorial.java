@@ -14,5 +14,6 @@ public class Factorial {
 			System.out.print(i+" x ");
 		}
 		System.out.println("\nFactorial is = "+factorial);
+		sc.close();
 	}
 }
