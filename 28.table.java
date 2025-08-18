@@ -10,5 +10,6 @@ public class Table {
 			int table = N * i ;
 			System.out.println(N+" x "+i+" = "+table);
 		}
+		sc.close();
 	}
 }
