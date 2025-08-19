@@ -1,4 +1,3 @@
-package challenges;
 import java.util.Scanner;
 public class SumOfDigit {
 	public static void main(String[] args) {
