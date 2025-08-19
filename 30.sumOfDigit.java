@@ -8,7 +8,7 @@ public class SumOfDigit {
 		
 		int sum = sumofdigit(num);
 		System.out.print("Sum of digits = "+sum);
-		
+		sc.close()
 	}
 	public static int sumofdigit(int num) {
 		int sum = 0;
