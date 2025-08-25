@@ -11,7 +11,7 @@ public class GCD {
 		
 		int gcd = gcd(first,second);
 		System.out.println("GCD of "+first+" and "+second+" is "+gcd);
-		
+		sc.close();
 	}
 	public static int gcd(int num1,int num2) {
 		int gcd = 1;
