@@ -11,7 +11,7 @@ public class LCM {
 		
 		int lcm = lcm(first,second);
 		System.out.println("LCM of "+first+" and "+second+" is "+lcm);
-		sc.close()
+		sc.close();
 	}
 	public static int lcm (int first, int second) {
 		for(int i=1; i<=(first*second);i++) {
