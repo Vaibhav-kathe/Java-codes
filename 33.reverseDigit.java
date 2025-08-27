@@ -1,4 +1,3 @@
-package challenges;
 import java.util.Scanner;
 public class ReverseDigit {
 	public static void main(String []args) {
