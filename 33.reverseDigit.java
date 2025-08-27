@@ -8,7 +8,7 @@ public class ReverseDigit {
 		int num = sc.nextInt();
 		int reverse = reverse(num);
 		System.out.println("Reversed of your number is : "+reverse);
-		
+		sc.close();
 	}
 	public static int reverse(int num) {
 		int newNum = 0;
