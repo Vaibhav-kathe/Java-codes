@@ -14,7 +14,6 @@ public class FibonacciSeries {
 			System.out.println("0");
 			return;
 		}
-		
 		int first = 0;
 		int second = 1;
 		while(first+second <= num) {
