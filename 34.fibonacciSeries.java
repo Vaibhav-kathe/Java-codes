@@ -7,7 +7,7 @@ public class FibonacciSeries {
 		System.out.print("Enter the  certain Number = ");
 		int num = sc.nextInt();
 		printfibonacci(num);
-		
+		sc.close();
 	}
 	public static void printfibonacci(int num) {
 		if(num<=0) {
