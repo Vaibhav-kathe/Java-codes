@@ -10,4 +10,6 @@ public class Armstrong {
 	public static boolean isArmstrong(int num) {
 		int noOfDigit = numOfDigit(num);
 		System.out.println("No. of digit: "+noOfDigit);
+		int numCopy = num;
+		int finalNumber = 0;
 }
