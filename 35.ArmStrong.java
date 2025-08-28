@@ -17,4 +17,5 @@ public class Armstrong {
 			num = num/10;
 			finalNumber = finalNumber+pow(lastDigit,noOfDigit);
 		}
+		return finalNumber == numCopy;
 }
