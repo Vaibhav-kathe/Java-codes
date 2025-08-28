@@ -11,7 +11,6 @@ public class Armstrong {
 		}else {
 			System.out.println("Your number is not Armstrong");
 		}
-    
   }
 	public static boolean isArmstrong(int num) {
 		int noOfDigit = numOfDigit(num);
