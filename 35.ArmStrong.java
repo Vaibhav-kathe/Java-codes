@@ -5,6 +5,7 @@ public class Armstrong {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Number : ");
 		int num = sc.nextInt();
+		boolean isarmstrong = isArmstrong(num);	
     
   }
 	public static boolean isArmstrong(int num) {
