@@ -31,4 +31,6 @@ public class Armstrong {
 			result = result*num1;
 			i++;
 		}
+		System.out.println("Power of "+num1+" is : "+result );
+		return result;
 	}
