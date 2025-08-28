@@ -36,3 +36,7 @@ public class Armstrong {
 	}
 	public static int numOfDigit(int num) {
 		int digit = 0;
+		while(num>0) {
+			digit++;
+			num = num/10;
+		}
