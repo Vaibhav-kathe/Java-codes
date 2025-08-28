@@ -11,7 +11,7 @@ public class Armstrong {
 		}else {
 			System.out.println("Your number is not Armstrong");
 		}
-  }
+	}
 	public static boolean isArmstrong(int num) {
 		int noOfDigit = numOfDigit(num);
 		System.out.println("No. of digit: "+noOfDigit);
@@ -23,7 +23,7 @@ public class Armstrong {
 			finalNumber = finalNumber+pow(lastDigit,noOfDigit);
 		}
 		return finalNumber == numCopy;
-}
+	}
 	public static int pow(int num1,int num2) {
 		int result = 1;
 		int i=0;
@@ -34,3 +34,5 @@ public class Armstrong {
 		System.out.println("Power of "+num1+" is : "+result );
 		return result;
 	}
+	public static int numOfDigit(int num) {
+		int digit = 0;
