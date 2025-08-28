@@ -27,5 +27,8 @@ public class Armstrong {
 	public static int pow(int num1,int num2) {
 		int result = 1;
 		int i=0;
-		
+		while(i<num2) {
+			result = result*num1;
+			i++;
+		}
 	}
