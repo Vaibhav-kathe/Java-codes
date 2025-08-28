@@ -6,6 +6,9 @@ public class Armstrong {
 		System.out.print("Enter the Number : ");
 		int num = sc.nextInt();
 		boolean isarmstrong = isArmstrong(num);	
+		if(isarmstrong) {
+			System.out.println("Your number is Armstrong");
+		}
     
   }
 	public static boolean isArmstrong(int num) {
