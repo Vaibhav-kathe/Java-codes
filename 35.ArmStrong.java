@@ -40,3 +40,6 @@ public class Armstrong {
 			digit++;
 			num = num/10;
 		}
+		return digit;
+	}
+}
