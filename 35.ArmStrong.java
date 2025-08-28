@@ -8,6 +8,8 @@ public class Armstrong {
 		boolean isarmstrong = isArmstrong(num);	
 		if(isarmstrong) {
 			System.out.println("Your number is Armstrong");
+		}else {
+			System.out.println("Your number is not Armstrong");
 		}
     
   }
