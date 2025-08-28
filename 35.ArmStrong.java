@@ -7,4 +7,7 @@ public class Armstrong {
 		int num = sc.nextInt();
     
   }
+	public static boolean isArmstrong(int num) {
+		int noOfDigit = numOfDigit(num);
+		System.out.println("No. of digit: "+noOfDigit);
 }
