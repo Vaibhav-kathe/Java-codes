@@ -12,4 +12,9 @@ public class Armstrong {
 		System.out.println("No. of digit: "+noOfDigit);
 		int numCopy = num;
 		int finalNumber = 0;
+		while(num > 0) {
+			int lastDigit = num%10;
+			num = num/10;
+			finalNumber = finalNumber+pow(lastDigit,noOfDigit);
+		}
 }
