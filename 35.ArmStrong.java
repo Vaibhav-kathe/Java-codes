@@ -24,3 +24,6 @@ public class Armstrong {
 		}
 		return finalNumber == numCopy;
 }
+	public static int pow(int num1,int num2) {
+		
+	}
