@@ -6,6 +6,11 @@ public class Palindrome {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Number = ");
 		int num = sc.nextInt();
+		if(ispalindrome) {
+			System.out.println("Your Number is Palindrome");
+		}else {
+			System.out.println("Your Number is not Palindrome");
+		}
 
 
 
