@@ -12,7 +12,7 @@ public class OneD_Array {
 		}else {
 			System.out.println("Your Number is not found in array");
 		}
-
+		sc.close();
 	}
 	public static boolean isFound(int[]arr,int num) {
 		int i =0;
