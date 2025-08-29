@@ -6,14 +6,13 @@ public class Palindrome {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Number = ");
 		int num = sc.nextInt();
+		boolean ispalindrome = isPalindrome(num);
 		if(ispalindrome) {
 			System.out.println("Your Number is Palindrome");
 		}else {
 			System.out.println("Your Number is not Palindrome");
 		}
-
-
-
+		sc.close();
  	}
 	public static boolean isPalindrome(int num) {
 		int reverse = reverse(num);
