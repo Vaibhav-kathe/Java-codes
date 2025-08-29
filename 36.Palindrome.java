@@ -21,4 +21,5 @@ public class Palindrome {
 			newNum = newNum*10 + digit;
 			num/=10;
 		}
+		return newNum;
 }
