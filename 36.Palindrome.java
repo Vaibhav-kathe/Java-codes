@@ -10,4 +10,8 @@ public class Palindrome {
 
 
   }
+	public static boolean isPalindrome(int num) {
+		int reverse = reverse(num);
+		return num == reverse;
+	}
 }
