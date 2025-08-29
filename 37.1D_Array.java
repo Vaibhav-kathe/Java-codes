@@ -1,7 +1,7 @@
 public class TwoD_Array {
   public static void main(String[] args) {
 		//1st method
-		//int[][] arr = new int[2][3];
+		//int[][] arr = new int[2][3]; 
 		//arr[0][0]=9;
 		
 		//2nd method
